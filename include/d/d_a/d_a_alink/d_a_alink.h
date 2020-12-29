@@ -207,7 +207,6 @@ void tgHitCallback__9daAlink_cFP10fopAc_ac_cP12dCcD_GObjInfP12dCcD_GObjInf(fopAc
                                                                            dCcD_GObjInf*);
 void coHitCallback__9daAlink_cFP10fopAc_ac_cP12dCcD_GObjInf(fopAc_ac_c*, dCcD_GObjInf*);
 void J3DMaterialAnm_NS_calc(void);
-void PSVECAdd(Vec*, Vec*, Vec*);
 void mDoMtx_stack_c_NS_transM(float, float, float);
 void daAlink_c_NS_concatMagneBootInvMtx(void);
 void mDoMtx_ZXYrotM(void);
@@ -248,15 +247,13 @@ void cLib_addCalcAngleS2(void);
 void PSMTXMultVec(void);
 void daAlink_c_NS_getMoveBGActorName(void);
 void daAlink_c_NS_multVecMagneBootInvMtx(void);
-void cXyz_NS___ml(void);
-void cXyz_NS_atan2sY_XZ(void);
-void cM_atan2s(void);
+void __ml__4cXyzCFf(void);
+void atan2sY_XZ__4cXyzCFv(void);
 void cLib_distanceAngleS(void);
-void cXyz_NS_atan2sX_Z(void);
+void atan2sX_Z__4cXyzCFv(void);
 void PSMTXMultVecSR(void);
-void cXyz_NS___mi(void);
+void __mi__4cXyzCFRC3Vec(void);
 void dKyw_get_AllWind_vec(void);
-void PSVECSquareMag(void);
 void cLib_addCalcAngleS(void);
 void cM_rndF(void);
 void calcHairAngle__9daAlink_cFPs(short*);
@@ -335,7 +332,6 @@ extern float lbl_804531F4;
 extern cXyz lbl_80430CF4;       // SComponent::cXyz::Zero
 extern cXyz lbl_80430D0C;       // SComponent::cXyz::BaseX
 extern cXyz lbl_80430D24;       // SComponent::cXyz::BaseY
-extern u8 lbl_80439A20[65536];  // JMath::JMath::sincosTable_
 
 // daalink sethairangle
 extern float lbl_80452C98;

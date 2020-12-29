@@ -7,6 +7,14 @@ struct Vec {
     float x, y, z;
 };
 
+double __frsqrte(double);
+float __fabsf(float);
+float __fnabsf(float);
+
+inline double fabsf(double d) {
+    return __fabsf(d);
+}
+
 #include "dolphin/types.h"
 
 #include "functions.h"
