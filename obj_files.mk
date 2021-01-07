@@ -560,7 +560,7 @@ TEXT_O_FILES := 						            \
             $(BUILD_DIR)/asm/os/OSSync.o    \
             $(BUILD_DIR)/asm/os/OSThread.o    \
             $(BUILD_DIR)/asm/os/OSTime.o    \
-            $(BUILD_DIR)/asm/os///ppc/eabi/__ppc_eabi_init.o    \
+            $(BUILD_DIR)/asm/os/ppc/eabi/__ppc_eabi_init.o    \
             $(BUILD_DIR)/asm/exi/EXIBios.o    \
             $(BUILD_DIR)/asm/exi/EXIUart.o    \
             $(BUILD_DIR)/asm/si/SIBios.o    \
