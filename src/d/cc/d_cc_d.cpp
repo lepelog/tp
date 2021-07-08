@@ -279,7 +279,7 @@ asm void dCcD_GAtTgCoCommonBase::SetHitApid(unsigned int param_0) {
 
 /* 80083688-80083704 07DFC8 007C+00 6/6 17/17 43/43 .text GetAc__22dCcD_GAtTgCoCommonBaseFv */
 #ifndef NM
-fopAc_ac_c *dCcD_GAtTgCoCommonBase::GetAc() {
+fopAc_ac_c* dCcD_GAtTgCoCommonBase::GetAc() {
     if (mApid == 0xFFFFFFFF) {
         return NULL;
     } else {

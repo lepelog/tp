@@ -61,7 +61,7 @@ public:
     /* 8008364C */ void ClrActorInfo();
     /* 80083660 */ void ct();
     /* 80083678 */ void SetHitApid(unsigned int);
-    /* 80083688 */ fopAc_ac_c *GetAc();
+    /* 80083688 */ fopAc_ac_c* GetAc();
     /* 80083704 */ void Set(dCcD_SrcGAtTgCoCommonBase const&);
     /* 80083718 */ void SetEffCounterTimer();
     /* 80083724 */ void SubtractEffCounter();
